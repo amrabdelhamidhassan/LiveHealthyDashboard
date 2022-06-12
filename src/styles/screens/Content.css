@@ -1,0 +1,51 @@
+.Content
+{
+    display: flex;
+    margin:5vh 5vh 5vh 5vh;
+    flex-direction: column;
+    background-color: transparent;
+    margin-top: 20vh;
+    width: fit-content;
+}
+.SearchParamsBox
+{
+    display: flex;
+    flex-direction: column;
+}
+.SearchRow
+{
+    display: flex;
+    flex-direction: row;
+    margin-left: 2vw;
+
+}
+.SearchParam
+{
+    display: flex;
+    margin:1vw;
+    flex-direction: row;
+}
+.label
+{
+    margin-right: 1vw;
+    padding: 0.5vw;
+    border-radius: 0.4vw;
+    color: aliceblue;
+}
+.textInput
+{
+    border-radius: 0.4vw;
+    margin-left: 1vw;
+}
+.actionBtn
+{
+    margin-left: 1vw;
+    padding: 0.5vw;
+    border-radius: 0.4vw;
+    color: aliceblue;
+    background-color: darkred;
+}
+.actionBtn:hover
+{
+    opacity: 0.6;
+}

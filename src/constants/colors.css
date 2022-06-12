@@ -1,0 +1,18 @@
+.MainTheme{
+    color:rgb(22, 207, 240);
+}
+.BackgroundMainTheme{
+    background-color:rgb(22, 207, 240);
+}
+.MainHeaderTheme{
+    color:rgb(88, 7, 7);
+}
+.MainHeaderBackgroundMainTheme{
+    background-color:rgb(88, 7, 7);
+}
+.MainThemeDark{
+    color:rgb(10, 121, 177);
+}
+.BackgroundMainThemeDark{
+    background-color:rgb(10, 121, 177);
+}

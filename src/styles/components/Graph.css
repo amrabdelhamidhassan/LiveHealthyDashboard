@@ -1,0 +1,48 @@
+.graphContainer
+{
+    flex-direction: column;
+    width: fit-content;
+    height: fit-content;
+    margin:0.5vw;
+    border-radius: 2vh;
+    padding: 2vh;
+    justify-content: center;
+    align-items: center;
+    border: 0.4vh solid white;
+    box-shadow: 3px 5px 10px rgb(0 0 0 / 1);
+}
+.graphContainer:hover
+{
+    opacity: 0.8;
+    cursor: pointer;
+
+}
+.TitleRow
+{
+    color: aliceblue;
+    font-size: 1.5vw;
+   flex-direction: row;
+   display: flex;
+   align-items: flex-start;
+   justify-content: center;
+}
+.labelTitle
+{
+    color: aliceblue;
+    font-size: 1.2vw;
+    width: 5vw;
+}
+.graphRow
+{
+    display: flex;
+    flex-direction: row;
+    margin-top: 2vh;
+    width:30vw
+}
+.colorBar
+{
+    display: flex;
+    height:3vh;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,76 @@
+.tableBody
+{
+    flex-direction: column;
+    width: fit-content;
+    margin:5vh;
+    border-radius: 2vh;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 3px 5px 10px rgb(0 0 0 / 1);
+    overflow: auto;
+}
+.headerRow
+{
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    height: fit-content;
+    border-radius: 2vh;
+
+}
+.headerTitle
+{
+    flex: 1;
+    font-size: 1.5vw;
+    color: aliceblue;
+    height: 8vh;
+    border-radius: 3vh;
+    width: 8vw;
+    overflow: auto;
+    border: 0.4vh solid white;
+    padding: 0.5vh;
+}
+.RowBox
+{
+    display: flex;
+    flex-direction: row;
+    border-bottom: 0.4vh solid white;
+    border-right: 0.4vh solid white;
+    border-left: 0.4vh solid white;
+
+}
+.RowData
+{
+    display: flex;
+    flex-direction: row;
+    font-size: 1vw;
+    color: aliceblue;
+    width: 8vw;
+    height: 3vw;
+    overflow: auto;
+    border: 0.4vh solid white;
+
+    padding: 0.5vh;
+    justify-content: flex-start;
+}
+.paginationRow
+{
+    display: flex;
+    border-radius:0.2vh ;
+    border: 0.4vh solid aliceblue;
+    flex-direction: row;
+    background-color: transparent;
+    justify-content: flex-start;
+    
+}
+.paginationButton
+{
+    padding: 1vh 10vh 1vh 10vh;
+    border: 0;
+    color: aliceblue;
+    font-size: large;
+}
+.paginationButton:hover
+{
+    opacity: 0.5;
+}

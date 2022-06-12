@@ -1,0 +1,24 @@
+.LoginWrapper{
+    padding:2em;
+    display: flex;
+    flex-direction: column;
+    margin-top: em;
+}
+.loginBoxWrapper
+{
+    background-color: blueviolet;
+}
+.LoginTextBox{
+    font-weight: bold;
+    font-size: 1vw;
+    border-radius: 1em;
+    padding:0.5em 1em 0.5em 1em ;
+    margin: 0.5em 40em 0.5em 40em;}
+.loginLabel{
+    font-weight: bold;
+    font-size: 2em;
+    border-radius: 1em;
+    padding:1em 1em 1em 1em ;
+    margin: 5vw 10vw 2vw 10vw;
+}
+
